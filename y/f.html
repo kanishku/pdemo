@@ -1,0 +1,169 @@
+<div class="row">
+    <div class="box">
+        <img src="https://img.freepik.com/free-photo/programming-background-collage_23-2149901789.jpg?size=626&ext=jpg&ga=GA1.1.949601957.1697622518&semt=ais" alt="img">
+        <h4>Web Devlopment</h4>
+        <p>To create  the newest and finest web development solutions to businesses . Web development is the process of building and maintaining a website for the Internet.</p>
+    </div>
+    <div class="box">
+        <img src="https://www.brainmobi.com/blog/wp-content/uploads/2017/08/Benefits-Of-Using-Mean-Stack-For-Application-Development.jpg" alt="img">
+        <h4>Frontend</h4>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur nihil recusandae pariatur necessitatibus harum nobis velit delectus! Eius, id dolorem esse odio aut beatae eligendi vitae quia incidunt optio at?</p>
+    </div>
+    <div class="box">
+        <img src="https://www.startdesigns.com/blog/wp-content/uploads/2021/08/Primary-Front-End-Web-Development-Tools-2.jpg" alt="img">
+        <h4>Frontend</h4>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur nihil recusandae pariatur necessitatibus harum nobis velit delectus! Eius, id dolorem esse odio aut beatae eligendi vitae quia incidunt optio at?</p>
+    </div>
+  
+  </div>
+    </div>
+
+
+
+    .row{
+        display: flex;
+        top: 1750px;
+        position: absolute;
+        margin-left: 5px;
+    
+    }
+    .box{
+        width: 400px;
+        height: 500px;
+        border: 2px ridge rgb(51, 7, 27);
+        margin: 20px;
+        background: linear-gradient( to top, rgb(0, 14, 9)50%, rgb(8, 60, 29)50%);
+        
+        transition: all 0.8s;
+        
+    }
+    .box:hover{
+        background-position: left bottom;
+        border: none;
+        box-shadow: 3px 5px 6px 2px rgb(67, 6, 124);
+    }
+    .box img{
+        width: 100%;
+    }
+    .box h4{
+        text-align: center;
+        color: rgb(46, 106, 134);
+     font-size: large;
+    
+    }
+    .box p{
+        text-align: justify;
+        margin: 20px;
+        font-size: large;
+    }
+
+
+
+
+
+    <section class="portfolio" id="portfolio" >
+        <h2 class="heading">Latest <span>Project</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="images/trave.PNG" height="200px" width="500px" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Static Website Travel Blog</p>
+                    <a href="#"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/t.PNG"  height="200px" width="500px" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Static Website Travel Blog</p>
+                    <a href="#"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+            </div>
+            <div class="portfolio-two"></div>
+            <div class="portfolio-box">
+                <img src="images/lu1.PNG"  height="200px" width="500px" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Static Website Travel Blog</p>
+                    <a href="#"><i class='bx bx-link-external' ></i></a>
+                </div>
+                </div>
+            <div class="portfolio-box">
+                <img src="images/co.PNG"  height="200px" width="500px" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Static Website Travel Blog</p>
+                    <a href="#"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    .portfolio{
+        background: var(--second-bg-color);
+    }
+    .portfolio h2{
+        margin-bottom: 4rem;
+    }
+    .portfolio-container{
+        display: flex;
+        grid-template-columns: repeat(3,1ft);
+        align-items: center;
+        gap: 2.5rem;
+        height: 900px;
+        top: 1980px;
+    
+        
+    }
+    .portfolio-two{
+        display: flex;
+        grid-template-columns: repeat(3,1ft);
+        align-items: center;
+        gap: 2.5rem;
+        height: 900px;
+        top: 1980px;
+    }
+    .portfolio-two   .portfolio-box{
+        position: relative;
+        border-radius: 2rem;
+        box-shadow: 0 0 1rem var(--bg-color);
+        overflow: hidden;
+        display: flex;
+    }
+    
+    .portfolio-container .portfolio-box{
+        position: relative;
+        border-radius: 2rem;
+        box-shadow: 0 0 1rem var(--bg-color);
+        overflow: hidden;
+        display: flex;
+    }
+    .portfolio-box img{
+        width: 100%;
+    }
+    .portfolio-box .portfolio-layer{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(rgba(0,0,0,.1),var(--main-color));
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        padding: 0 4rem;
+    }
+    .portfolio-layer h4{
+        font-size: 3rem;
+    }
+    .portfolio-layer p{
+        font-size: 1.6rem;
+        margin: .3rem 0 1rem;
+    }

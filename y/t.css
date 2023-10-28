@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;;
+}
+nav{
+    background-color: rgb(75, 15, 15);
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+nav ul{
+    display: flex;
+    
+}
+nav ul li a{
+    justify-content: space-evenly;
+    margin: 30px;
+    color: burlywood;
+    font-weight: bolder;
+    text-decoration: none;
+    position: sticky;
+}
+video{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+.u{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+h1{
+    color:rgb(200, 255, 0);
+    text-shadow: 4px 5px 3px red;
+    font-size: 30px;
+}
+h1:cover{
+    color: chocolate;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+}
+#home::before{
+    content: "";
+    background-image: url(https://st2.depositphotos.com/6672578/9743/i/450/depositphotos_97431594-stock-photo-businessman-smiling-confidently-at-camera.jpg);
+    height: 800px;
+    background-position: top;
+    background-size: cover;
+}
+.main{
+    border: 2px ridge black;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 800px;
+    left: 60%;
+    box-shadow: 4px 5px;
+}
+span{
+    color: black;
+}
+.pic{
+    display: flex;
+
+}
+.pic img{
+    width: 500px;
+    border: 2px ridge black;
+    padding: 50px;
+    
+
+    box-shadow: 4px 5px;
+
+}
+h3{
+        text-align: center;
+        color: rgb(7, 1, 12);
+        text-shadow: 4px 5px 3px rgb(148, 185, 62);
+}
+.pic h4{
+    text-align:center ;
+    font-size: x-large;
+    margin: 30px;
+    color: blue;
+}
+.pic p{
+    text-align: justify;
+    margin: 30px;
+}
+.gallery{
+    justify-content: space-between;
+    margin-left: 100px;
+}
+.gallery img{
+    width: 300px;
+    height: 200px;
+    margin: 30px;
+    margin-bottom: 10px;
+}
+.gallery,img:hover{
+    box-shadow: 3px 4px 5px rgb(231, 9, 42);
+}
+.row{
+    display: flex;
+
+}
+.box{
+    width: 500px;
+    height: 500px;
+    border: 2px ridge rgb(209, 24, 110);
+    margin: 20px;
+    background: linear-gradient( to top, rgb(209, 24, 110)50%, rgb(219, 192, 205)50%);
+    background-size: 100% 200%;
+    transition: all 0.8s;
+}
+.box:hover{
+    background-position: left bottom;
+    border: none;
+    box-shadow: 3px 5px 6px 2px rgb(67, 6, 124);
+}
+.box img{
+    width: 100%;
+}
+.box h4{
+    text-align: center;
+    color: brown;
+
+}
+.box p{
+    text-align: justify;
+    margin: 20px;
+}
+form{
+    width: 500px;
+    margin-left: 500px;
+}
+.input{
+    width: 100%;
+    margin: 10px;
+}
+button{
+    color: aliceblue;
+    background-color: rgb(54, 22, 201);
+}
+.cv{
+    background-color: rgb(211, 26, 128);
+   padding:10px ;
+   color: azure;
+   text-decoration: none;
+   border-radius: 10px; 
+   margin-left: 500px;
+}
+footer{
+    background-color: rgb(7, 80, 56);
+    width: 100%;
+    height: 100px;
+    color: rgb(5, 1, 19);
+}
